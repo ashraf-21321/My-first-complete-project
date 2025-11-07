@@ -1,169 +1,150 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gaming Store</title>
-  <link rel="stylesheet" href="style.css">
-  <!-- Font Awesome icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link   rel="stylesheet "href="./style.css">
+    <link rel="stylesheet  " href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 </head>
 <body>
 
-  <!-- Navbar -->
 
-<nav class="navbar">
-  <div class="logo">GamingZone</div>
-
-  <!-- التشيك بوكس المخفي -->
-  <input type="checkbox" id="menu-toggle">
-  <label for="menu-toggle" class="menu-icon">
-    <i class="fa-solid fa-bars"></i>
-  </label>
-
-  <!-- اللينكات -->
-  <ul class="nav-links">
-    <li><a href="#home">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#products">Products</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
+     <nav class="home">
+        <div>
+          <p class="ashraf"> ashraf</p>
+          <input type="checkbox" id="menu-toggle">
+<label for="menu-toggle" class="menu-icon">☰</label>
+<ul class="ul">
+  <li><a href="#contact">Contact Me</a></li>
+  <li><a href="#projects">Projects</a></li>
+  <li><a href="#skills">My Skills</a></li>
+  <li><a href="#about">About Me</a></li>
+  <li><a href="#" onclick="location.reload()">Home</a></li>
+</ul>
 
 
 
-  <!-- Hero Section -->
-  <section class="hero" id="home">
-     <div class="hero-content">
-      <h1>Upgrade Your <span>Gaming Setup</span></h1>
-      <p>Discover premium PCs, accessories, and gears for pro gamers.</p>
-      <button class="btn">Shop Now</button>
+        </div>
+     </nav>
+   <div class="main">
+        <div class="data">
+            <p class="hello">Hello, I am ashraf</p>
+            <p class="text">Front End Developer</p>
+            <p class="text">I create websits</p>
+            <a href="./img/صورة واتساب بتاريخ 2025-10-23 في 16.24.47_f5d664ea.jpg" class="cv" download>My CV</a>
+            <div class="icons">
+                <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+        <div class="image">
+            <img src="./img/صورة واتساب بتاريخ 2025-10-23 في 16.24.47_f5d664ea.jpg" alt="">
+        </div>
     </div>
-</section>
- 
-  
-  <!-- About Section -->
-   <section class="about" id="about">
-  <div class="about-container">
-    <div class="about-text">
-      <h2>About <span>Us</span></h2>
-      <p>
-        Welcome to <strong>GAMERZONE</strong> – your ultimate destination for high-end gaming PCs,
-        accessories, and custom setups. We bring performance, power, and design together to
-        give you the best gaming experience possible.
-      </p>
-      <button class="btn">Learn More</button>
+<div class="about-section" id="about">
+  <h2 class="about-title">About Me</h2>
+  <p class="about-text">
+    I am studying at El-Zagazig Technical Health Institute, and I love to develop 
+    my skills and not rely on the institute only.
+  </p>
+</div>
+
+
+<div class="skills-section" id="skills">
+  <h2 class="skills-title">My Skills</h2>
+
+  <div class="skill">
+    <p>HTML</p>
+    <div class="skill-bar">
+      <div class="fill html">95%</div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <p>CSS</p>
+    <div class="skill-bar">
+      <div class="fill css">90%</div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <p>Bootstrap</p>
+    <div class="skill-bar">
+      <div class="fill bootstrap">85%</div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <p>JavaScript</p>
+    <div class="skill-bar">
+      <div class="fill js">75%</div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="projects-section" id="projects">
+  <h2 class="projects-title">Projects</h2>
+
+  <div class="projects-container">
+
+    <div class="project-card">
+      <img src="./img/لقطة شاشة 2025-10-29 180535.png" alt="Calculator Project">
+      <div class="project-footer">
+        <a href="#" class="view-btn">View Project</a>
+      </div>
     </div>
 
-    <div class="about-image">
-      <img src="https://images.unsplash.com/photo-1593642532973-d31b6557fa68" alt="gaming setup">
+    <div class="project-card">
+      <img src="./img/لقطة شاشة 2025-10-29 180602.png" alt="Flowers Website">
+      <div class="project-footer">
+        <a href="#" class="view-btn">View Project</a>
+      </div>
     </div>
+
+    <div class="project-card">
+      <img src="./img/لقطة شاشة 2025-10-29 180616.png" alt="To Do App">
+      <div class="project-footer">
+        <a href="#" class="view-btn">View Project</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<section class="contact-section" id="contact">
+  <h2 class="contact-title">Contact Me</h2>
+
+  <div class="contact-container">
+    <form class="contact-form" action="#" method="post">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      <label for="phone">Your Phone</label>
+      <input type="tel" id="phone" name="phone" placeholder="Enter your phone" required>
+
+      <label for="email">Your E-mail</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="message">Your Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Type your message..." required></textarea>
+
+      <button type="submit" class="send-btn">Send</button>
+    </form>
   </div>
 </section>
-
-<!-- Products Section -->
- <section class="products" id="products">
-    <h2 class="section-title">Our <span>Gaming Products</span></h2>
-  <div class="products-container">
-
-    <div class="product-card">
-      <img src="./images/images (1).jpeg" alt="Gaming PC">
-      <h3>Custom Gaming PC</h3>
-      <p>Ultimate setup with RTX 4090 & liquid cooling.</p>
-      <button class="btn">Buy Now</button>
-    </div>
-
-    <div class="product-card">
-      <img src="./images/images (2).jpeg" alt="Gaming Laptop">
-      <h3>Gaming Laptop</h3>
-      <p>Portable power with Intel i9 & RTX 4080.</p>
-      <button class="btn">Buy Now</button>
-    </div>
-
-    <div class="product-card">
-      <img src="./images/تنزيل (1).jpeg" alt="Gaming Accessories">
-      <h3>Gaming Accessories</h3>
-      <p>Headsets, keyboards & mice with RGB lighting.</p>
-      <button class="btn">Buy Now</button>
-    </div>
-
-    <div class="product-card">
-      <img src="./images/تنزيل (2).jpeg" alt="Gaming Monitor">
-      <h3>Curved Gaming Monitor</h3>
-      <p>32” QHD display, 165Hz refresh rate, ultra-smooth gaming.</p>
-      <button class="btn">Buy Now</button>
-    </div>
-
-    <div class="product-card">
-      <img src="./images/تنزيل (3).jpeg" alt="Gaming Headset">
-      <h3>Pro Gaming Headset</h3>
-      <p>Surround sound, noise cancellation, and comfort fit.</p>
-      <button class="btn">Buy Now</button>
-    </div>
-
-    <div class="product-card">
-      <img src="./images/تنزيل (4).jpeg" alt="RGB Keyboard">
-      <h3>RGB Mechanical Keyboard</h3>
-      <p>Fast response keys, dynamic RGB patterns.</p>
-      <button class="btn">Buy Now</button>
-    </div>
-
-    <div class="product-card">
-      <img src="./images/تنزيل.jpeg" alt="Gaming Chair">
-      <h3>Ergonomic Gaming Chair</h3>
-      <p>Ultimate comfort for long gaming sessions.</p>
-      <button class="btn">Buy Now</button>
-    </div>
-
-  </div>
-</section>
-
-
-<!-- Featured Section -->
-<section class="featured">
-  <div class="featured-content">
-    <h2>Ultimate Gaming Experience</h2>
-    <p>Level up your setup with the latest gaming tech — ultra-fast performance, RGB power, and futuristic design.</p>
-    <button class="btn">Explore Now</button>
-  </div>
-</section>
-
-
-<!-- Contact / Footer Section -->
- <footer class="footer" id="contact">
-       <div class="footer-container">
-
-    <div class="footer-about">
-      <h3>GamingZone</h3>
-      <p>Your ultimate destination for gaming PCs, laptops, and accessories. We bring the future of gaming to your setup.</p>
-    </div>
-
-    <div class="footer-links">
-      <h4>Quick Links</h4>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Offers</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
-
-    <div class="footer-contact">
-      <h4>Contact Us</h4>
-      <p><i class="fa-solid fa-location-dot"></i> Cairo, Egypt</p>
-      <p><i class="fa-solid fa-envelope"></i> support@gamingzone.com</p>
-      <p><i class="fa-solid fa-phone"></i> +20 123 456 7890</p>
-    </div>
-
-  </div>
-
-  <div class="footer-bottom">
-    <p>© 2025 GamingZone. All Rights Reserved.</p>
-  </div>
+<footer class="footer">
+  <div class="footer-left">© 2025 Ashraf Yasser</div>
+  <div class="footer-right">Contact: example@email.com</div>
 </footer>
-
 
 
 </body>
